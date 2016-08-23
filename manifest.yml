@@ -17,7 +17,6 @@ url_to_dependency_map:
 dependencies:
 - name: nginx
   version: 1.11.3
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/nginx/nginx-1.11.3-linux-x64.tgz
-  md5: 4944b39c77b4fc245df45e60eae635b3
+  uri: https://s3-eu-west-1.amazonaws.com/cloudfoundryapps/nginx-1.11.3-linux-x64.tgz
   cf_stacks:
   - cflinuxfs2
